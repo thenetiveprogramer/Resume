@@ -13,7 +13,7 @@ public class Fifth5Activity2 extends AppCompatActivity {
 
     TextView txtreset,txtnext;
 
-    EditText skill1,skill2,skill3,skill4,skill5;
+    EditText Skill1,Skill2,Skill3,Skill4,Skill5;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -23,24 +23,37 @@ public class Fifth5Activity2 extends AppCompatActivity {
 
         txtreset=findViewById(R.id.txtreset);
         txtnext=findViewById(R.id.txtnext);
-        skill1=findViewById(R.id.skill1);
-        skill2=findViewById(R.id.skill2);
-        skill3=findViewById(R.id.skill3);
-        skill4=findViewById(R.id.skill4);
-        skill5=findViewById(R.id.skill5);
+        Skill1=findViewById(R.id.skill1);
+        Skill2=findViewById(R.id.skill2);
+        Skill3=findViewById(R.id.skill3);
+        Skill4=findViewById(R.id.skill4);
+        Skill5=findViewById(R.id.skill5);
 
         txtnext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                String Skil = skill1.getText().toString();
-                String Skill = skill2.getText().toString();
-                String Skilll = skill3.getText().toString();
-                String Skillll = skill4.getText().toString();
-                String Skilllll= skill5.getText().toString();
+                String Skil1 = Skill1.getText().toString();
+                String Skil2 = Skill2.getText().toString();
+                String Skil3 = Skill3.getText().toString();
+                String Skil4 = Skill4.getText().toString();
+                String Skil5= Skill5.getText().toString();
+
+                Intent intent =  new Intent();
+                startActivity();
 
             }
         });
+        txtreset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+                Skill1.setText("");
+                Skill2.setText("");
+                Skill3.setText("");
+                Skill4.setText("");
+                Skill5.setText("");
+            }
+        });
     }
 }

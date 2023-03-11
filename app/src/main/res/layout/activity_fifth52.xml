@@ -15,6 +15,7 @@
         android:layout_marginBottom="30dp"
         android:gravity="center"
         android:text="Skills"
+        android:letterSpacing="0.2"
         android:textSize="30dp"
         android:textColor="@color/black"
         android:textStyle="bold" />
@@ -37,7 +38,7 @@
         android:layout_margin="10dp"
         android:background="@drawable/shap2"
         android:padding="20dp"
-        android:hint="skill2"/>
+        android:hint="Skill2"/>
 
     <EditText
         android:id="@+id/skill3"
@@ -47,7 +48,7 @@
         android:layout_margin="10dp"
         android:background="@drawable/shap2"
         android:padding="20dp"
-        android:hint="skill3"/>
+        android:hint="Skill3"/>
 
     <EditText
         android:id="@+id/skill4"
@@ -57,7 +58,7 @@
         android:layout_margin="10dp"
         android:background="@drawable/shap2"
         android:padding="20dp"
-        android:hint="skill4"/>
+        android:hint="Skill4"/>
 
     <EditText
         android:id="@+id/skill5"
@@ -67,7 +68,7 @@
         android:layout_margin="10dp"
         android:background="@drawable/shap2"
         android:padding="20dp"
-        android:hint="skill5"/>
+        android:hint="Skill5"/>
 
     <LinearLayout
         android:layout_width="match_parent"
