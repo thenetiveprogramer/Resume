@@ -6,10 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class thirdactivity3 extends AppCompatActivity {
 
-    Button txtnext;
+    TextView txtreset,txtnext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,7 @@ public class thirdactivity3 extends AppCompatActivity {
         setContentView(R.layout.activity_thirdactivity3);
 
         txtnext=findViewById(R.id.txtnext);
+        txtreset=findViewById(R.id.txtreset);
 
         txtnext.setOnClickListener(new View.OnClickListener() {
             @Override
